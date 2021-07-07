@@ -12,9 +12,9 @@ services:
     ports:
     - "27017:27017"
     environment:
-    # - MONGODB_PASSWORD=password
-    # - MONGODB_USERNAME=testGaloy
-    # - MONGODB_DATABASE=galoy
+    - MONGODB_PASSWORD=password
+    - MONGODB_USERNAME=testGaloy
+    - MONGODB_DATABASE=galoy
     - MONGODB_ADVERTISED_HOSTNAME=mongodb
     - MONGODB_REPLICA_SET_MODE=primary
     - MONGODB_ROOT_PASSWORD=password123
